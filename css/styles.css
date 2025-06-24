@@ -43,7 +43,7 @@
 /*--------- Abstracts variable ---------- */
 @import url(./bootstrap-select.min.css);
 :root {
-  --primary: #9ACBD0;
+  --primary-1: #9ACBD0;
   --primary-2: #48A6A7;
   --primary-3: #ffc5c0;
   --primary-4: #F2EFE7;
@@ -81,7 +81,7 @@
   --surface-3: #f3f3f3;
   --shadow-1: 0px 4px 20px 0px #0000001a;
   --gradient-1: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-  --gradient-2: linear-gradient(180deg, rgba(231, 236, 210, 0) 0%, #e7ecd2 100%);
+  --gradient-2: linear-gradient(180deg, rgba(231, 236, 210, 0) 0%, var(--primary-1) 100%);
   --backdrop: rgba(0, 0, 0, 0.4);
   --bg-scrollbar-track: #f1f1f1;
   --bg-scrollbar-thumb: #c1c1c1;
@@ -1139,7 +1139,7 @@ video {
 }
 
 .bg-surface-3 {
-  background-color: #fffcf6 !important;
+  background-color: var(--secondary-4);
 }
 
 .bg-surface-4 {
@@ -1259,7 +1259,7 @@ video {
 }
 
 .bg-light-green-10 {
-  background-color: #e7ecd2 !important;
+  background-color: var(--primary-1);
 }
 
 .bg-light-green-11 {
@@ -5686,6 +5686,11 @@ button.animate-btn::after,
   height: 42px;
   padding: 12px;
 }
+
+.box-icon img{
+  height: 40px;
+}
+
 .main-product-quickadd .payment-link {
   font-size: 14px;
   line-height: 120%;
@@ -7092,12 +7097,12 @@ button.animate-btn::after,
   transform: translateX(-50%);
   padding: 0px 20px;
   z-index: 1;
-  background-color: #fffcf6;
+  background-color: var(--secondary-4);
   text-align: center;
   text-wrap: nowrap;
 }
 .flat-wrapper-iconbox .tf-icon-box .box-icon {
-  border: 1px solid #4D8036;
+  border: 1px solid var(--secondary);
 }
 .flat-wrapper-iconbox .tf-icon-box .title {
   font-size: 20px;
