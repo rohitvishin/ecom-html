@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -43,15 +43,15 @@
 /*--------- Abstracts variable ---------- */
 @import url(./bootstrap-select.min.css);
 :root {
-  --primary: #ff6f61;
-  --primary-2: #ff9a90;
+  --primary: #9ACBD0;
+  --primary-2: #48A6A7;
   --primary-3: #ffc5c0;
-  --primary-4: #fff1ef;
+  --primary-4: #F2EFE7;
   --primary-green: #39ae52;
-  --secondary: #4b4ded;
+  --secondary: #006A71;
   --secondary-2: rgba(75, 77, 237, 0.75);
   --secondary-3: rgba(75, 77, 237, 0.5);
-  --secondary-4: #efeffd;
+  --secondary-4: #F2EFE7;
   --dark: #000000;
   --dark-2: #101828;
   --dark-3: #282828;
@@ -100,12 +100,12 @@
 }
 
 .primary-3 {
-  --primary: #d62c2c;
+  --primary: var(--secondary);
 }
 
 /*---------- Reset css styles ----------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -1295,7 +1295,7 @@ video {
 }
 
 .bg-dark-green-4 {
-  background-color: #253321 !important;
+  background-color: var(--secondary) !important;
 }
 
 .bg-dark-green-5 {
@@ -1651,7 +1651,7 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
 }
 .link:hover {
-  color: var(--primary) !important;
+  color: var(--primary-2) !important;
 }
 
 .grid-2 {
@@ -2622,7 +2622,7 @@ a:focus, a:hover {
 /*------------ Components ---------------- */
 /*------------ button ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -2807,8 +2807,8 @@ a:focus, a:hover {
 }
 .tf-btn.btn-orange {
   color: var(--white);
-  background-color: #ca790b;
-  border-color: #ca790b;
+  background-color: var(--secondary);
+  border-color: var(--primary-2);
 }
 .tf-btn.btn-orange-2 {
   color: var(--white);
@@ -2901,10 +2901,10 @@ a:focus, a:hover {
   font-size: 12px;
 }
 .tf-btn.btn-line-dark:hover {
-  color: var(--primary);
+  color: var(--primary-2);
 }
 .tf-btn.btn-line-dark:hover::after {
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 .tf-btn.btn-line-dark::after {
   content: "";
@@ -3413,7 +3413,7 @@ button.animate-btn::after,
 
 /*------------ hover ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -3647,7 +3647,7 @@ button.animate-btn::after,
 
 /*------------ form ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -4149,7 +4149,7 @@ button.animate-btn::after,
 
 /*------------ drop down ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -4609,7 +4609,7 @@ button.animate-btn::after,
 
 /*------------ carousel ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -5105,7 +5105,7 @@ button.animate-btn::after,
 
 /*------------ pop up ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -6727,7 +6727,7 @@ button.animate-btn::after,
 
 /*------------ box icon ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -7080,7 +7080,7 @@ button.animate-btn::after,
 }
 
 .flat-wrapper-iconbox {
-  border: 1px solid #2a4528;
+  border: 1px solid var(--secondary);
   border-radius: 20px;
   padding: 77px 30px 49px;
   position: relative;
@@ -7106,7 +7106,7 @@ button.animate-btn::after,
 
 /*------------ tabs ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -7482,7 +7482,7 @@ button.animate-btn::after,
 
 /*------------ header ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -7835,7 +7835,7 @@ button.animate-btn::after,
   align-items: center;
 }
 .header-default .nav-icon .nav-icon-item:hover {
-  color: var(--primary);
+  color: var(--primary-2);
 }
 .header-default .nav-icon .nav-icon-item .count-box {
   font-family: "Poppins", sans-serif;
@@ -8096,7 +8096,7 @@ button.animate-btn::after,
   color: var(--white);
 }
 .header-white.header-bg {
-  background-color: var(--dark);
+  background-color: var(--secondary);
 }
 
 .header-uppercase .box-nav-menu .item-link {
@@ -8776,7 +8776,7 @@ header.header-bg {
 
 /*------------ footer ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -8952,7 +8952,7 @@ header.header-bg {
   gap: 15px;
 }
 .footer-menu-list a:hover {
-  color: var(--primary);
+  color: var(--primary-2);
 }
 
 .footer-newsletter {
@@ -9124,7 +9124,7 @@ header.header-bg {
 
 /*------------ blog ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -9481,7 +9481,7 @@ header.header-bg {
 
 /*------------ slider banner ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -9928,7 +9928,7 @@ header.header-bg {
 
 /*------------ collection ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -10538,7 +10538,7 @@ header.header-bg {
 
 /*------------ product ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -11895,7 +11895,7 @@ header.header-bg {
 }
 .card-product .price-wrap .price-new {
   margin-right: 2px;
-  color: var(--primary);
+  color: var(--secondary);
 }
 .card-product .card-product-wrapper {
   aspect-ratio: 0.7037037037;
@@ -11967,9 +11967,9 @@ header.header-bg {
   transition: all 0.4s ease-in-out;
 }
 .card-product .box-icon:hover {
-  background-color: var(--dark) !important;
+  background-color: var(--secondary) !important;
   color: var(--white);
-  border-color: var(--dark);
+  border-color: var(--primary-2);
 }
 .card-product .countdown-box {
   display: none;
@@ -13010,7 +13010,7 @@ header.header-bg {
 
 /*------------ testimonial ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -13325,7 +13325,7 @@ header.header-bg {
 
 /*------------ lookbook ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -13823,7 +13823,7 @@ header.header-bg {
 
 /*------------ brand ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -13956,7 +13956,7 @@ header.header-bg {
   font-size: 12px;
 }
 .gallery-item .box-icon:hover {
-  background-color: var(--dark);
+  background-color: var(--secondary);
   color: var(--white);
 }
 
@@ -13993,7 +13993,7 @@ header.header-bg {
 
 /*------------ zoom ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -14113,7 +14113,7 @@ header.header-bg {
 
 /*------------ shop ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -14999,7 +14999,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ shop ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -16220,7 +16220,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ account ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -16518,7 +16518,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ sections ---------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -18041,7 +18041,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*-------------- Responsive ----------------- */
 /* ---------------------------------------------------------
-    * Name: Vineta - Multipurpose eCommerce
+    * Name: Fyll - Shift toward mindful living.
     * Version: 1.0.2
     * Author: Themesflat
     * Author URI: http://themesflat.com 
@@ -22988,6 +22988,11 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   .rtl .grid-cls-suppermarket .s-cls .content {
     right: 15px;
   }
+}
+
+.subscribe-button{
+  background-color: var(--secondary);
+  border-color: var(--primary-2);
 }
 
 /*# sourceMappingURL=styles.css.map */
