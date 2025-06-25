@@ -606,7 +606,7 @@
         let regex;
 
         switch (country) {
-          case "Australia":
+          case "Indore":
             regex = /^\d{4}$/;
             break;
           case "Austria":
